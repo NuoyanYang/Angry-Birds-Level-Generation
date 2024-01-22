@@ -1,0 +1,21 @@
+{
+    "dataname": "aibirds_word",
+    "train_file": "aibirds_word/train.txt",
+    "valid_file": "aibirds_word/valid.txt",
+    "epoch": 501,
+    "n_embed": 50,
+    "hidden_size": 400,
+    "n_latent": 60,
+    "n_layers": 1,
+    "batch_size": 20,
+    "kl_zero_epoch": 251,
+    "lr": 1e-05,
+    "drop_ratio": 0.3,
+    "grad_clip": 3,
+    "generate": false,
+    "model_dir": "",
+    "model_epoch": 500,
+    "is_random": false,
+    "sample_size": 20,
+    "result_dir": "aibirds_word_1e-05_1_50_400_60_20_0.3_3"
+}
